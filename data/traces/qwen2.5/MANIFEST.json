@@ -1,0 +1,34 @@
+{
+  "source_dir": "odile-traces:llama_native_tk_v7_dual",
+  "source_manifest": {
+    "source_dir": "odile-traces:llama_native_tk_v3_mixed_merged",
+    "source_suffix": "mixed",
+    "suites": [
+      "banking",
+      "slack",
+      "travel",
+      "workspace"
+    ],
+    "total_input_triplets": 423,
+    "total_output_triplets": 846,
+    "format_split": {
+      "llama_native": 423,
+      "react": 423
+    }
+  },
+  "retag": {
+    "from": "llama_native",
+    "to": "qwen_native"
+  },
+  "suites": [
+    "banking",
+    "slack",
+    "travel",
+    "workspace"
+  ],
+  "total_output_triplets": 846,
+  "format_split": {
+    "qwen_native": 423,
+    "react": 423
+  }
+}

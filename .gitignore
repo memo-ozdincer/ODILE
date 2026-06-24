@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+.env
+.env.*
+.secrets/
+
+# Tooling caches
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# Downloaded model weights (fetch with scripts/download_adapters.py) and outputs
+adapters/
+results/
+*.pt
+*.safetensors
+
+# OS
+.DS_Store
