@@ -45,7 +45,6 @@ serve = ["vllm>=0.8.3"]
 odile = "odile.cli:main"
 
 [project.urls]
-Paper = "https://github.com/memo-ozdincer/odile-paper-package"
 Adapters = "https://huggingface.co/memo-ozdincer/ODILE"
 
 [build-system]

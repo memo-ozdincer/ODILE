@@ -3,7 +3,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/memo-ozdincer/odile-paper-package"><img alt="paper" src="https://img.shields.io/badge/paper-COLM%202026-1F3A5F"></a>
   <a href="https://huggingface.co/memo-ozdincer/ODILE"><img alt="adapters" src="https://img.shields.io/badge/adapters-Hugging%20Face-orange"></a>
   <a href="LICENSE"><img alt="license" src="https://img.shields.io/badge/code-Apache--2.0-blue"></a>
   <img alt="python" src="https://img.shields.io/badge/python-3.11%2B-blue">
@@ -13,7 +12,6 @@ Odile builds indirect prompt-injection robustness into LLM agents through low-ra
 
 ## Links
 
-- Paper (COLM 2026): https://github.com/memo-ozdincer/odile-paper-package
 - Adapters: https://huggingface.co/memo-ozdincer/ODILE
 
 ## Repository Layout
@@ -105,6 +103,5 @@ Code is released under the [Apache-2.0](LICENSE) license. See [NOTICE](NOTICE) f
   author    = {Özdinçer, Mehmet and Simko, Samuel and Schölkopf, Bernhard and Jin, Zhijing},
   booktitle = {Conference on Language Modeling ({COLM})},
   year      = {2026},
-  url       = {https://github.com/memo-ozdincer/odile-paper-package},
 }
 ```
