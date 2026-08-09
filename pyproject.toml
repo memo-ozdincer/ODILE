@@ -1,12 +1,12 @@
 [project]
 name = "odile"
 version = "0.1.0"
-description = "ODILE: a representation-level LoRA defense against indirect prompt injection in tool-using LLM agents."
+description = "Training and evaluation code for Odile, a low-rank defense against indirect prompt injection in LLM agents."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "Apache-2.0" }
 authors = [
-    { name = "Mehmet Ozdincer" },
+    { name = "Mehmet Özdinçer" },
     { name = "Samuel Simko" },
     { name = "Bernhard Schölkopf" },
     { name = "Zhijing Jin" },

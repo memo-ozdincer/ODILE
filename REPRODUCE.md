@@ -17,9 +17,9 @@ uv pip install -e ".[training,serve]"
 
 The paired training traces ship in `data/traces/` — one set per backbone family. Each
 suite file holds **(Odette, Odile) twins**: a benign and a harmful completion that share the
-same user task, tools, and prefix and differ only at the injection slot. Both completions
-are produced by the *base* model under greedy decoding; ODILE's loss contrasts them. No
-download or regeneration is needed.
+same user task, tools, and preceding trajectory and differ at the designated tool result.
+Both completions are produced by the *base* model under greedy decoding; ODILE's loss
+contrasts them. No download or regeneration is needed.
 
 ```
 data/traces/llama/        traces_{banking,slack,travel,workspace}_mixed.json     # Llama-3.1-8B, Llama-3.3-70B
@@ -104,8 +104,8 @@ odile eval grid --models base odile --attacks benign --format llama_native --out
 ### Expected headline (Llama-3.3-70B)
 
 ASR drops from **14.04% (base) to 0.01% (ODILE)** while benign utility stays at **59.8%**
-(vs. 59.9% base), at 1× inference cost. Under attack, ODILE outputs jam (degenerate tokens,
-no parseable tool call), so the attacker-target call is removed by construction.
+(vs. 59.9% base), at 1× inference cost. In these runs, attacked continuations contain no
+parseable attacker-directed tool call.
 
 ## 6. Inspect a single trace
 

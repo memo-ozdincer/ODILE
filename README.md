@@ -3,17 +3,17 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/memo-ozdincer/odile-paper-package"><img alt="paper" src="https://img.shields.io/badge/paper-preprint%202026-1F3A5F"></a>
+  <a href="https://github.com/memo-ozdincer/odile-paper-package"><img alt="paper" src="https://img.shields.io/badge/paper-COLM%202026-1F3A5F"></a>
   <a href="https://huggingface.co/memo-ozdincer/ODILE"><img alt="adapters" src="https://img.shields.io/badge/adapters-Hugging%20Face-orange"></a>
   <a href="LICENSE"><img alt="license" src="https://img.shields.io/badge/code-Apache--2.0-blue"></a>
   <img alt="python" src="https://img.shields.io/badge/python-3.11%2B-blue">
 </p>
 
-This repository contains the ODILE training, serving, and evaluation code.
+Odile builds indirect prompt-injection robustness into LLM agents through low-rank adaptation on paired benign and harmful traces. This repository contains its training, serving, and evaluation code.
 
 ## Links
 
-- Paper: https://github.com/memo-ozdincer/odile-paper-package
+- Paper (COLM 2026): https://github.com/memo-ozdincer/odile-paper-package
 - Adapters: https://huggingface.co/memo-ozdincer/ODILE
 
 ## Repository Layout
@@ -100,10 +100,11 @@ Code is released under the [Apache-2.0](LICENSE) license. See [NOTICE](NOTICE) f
 ## Citation
 
 ```bibtex
-@misc{ozdincer2026odile,
-  title  = {Weight-Level Defenses Improve LLM Prompt Injection Robustness},
-  author = {Ozdincer, Mehmet and Simko, Samuel and Sch\"olkopf, Bernhard and Jin, Zhijing},
-  year   = {2026},
-  note   = {Preprint, under review},
+@inproceedings{ozdincer2026odile,
+  title     = {Improved Robustness against Indirect Prompt Injection Can Be Built into {LLM}s},
+  author    = {Özdinçer, Mehmet and Simko, Samuel and Schölkopf, Bernhard and Jin, Zhijing},
+  booktitle = {Conference on Language Modeling ({COLM})},
+  year      = {2026},
+  url       = {https://github.com/memo-ozdincer/odile-paper-package},
 }
 ```
