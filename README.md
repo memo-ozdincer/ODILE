@@ -13,6 +13,7 @@ Odile builds indirect prompt-injection robustness into LLM agents through low-ra
 ## Links
 
 - Adapters: https://huggingface.co/memo-ozdincer/ODILE
+- External InjecAgent evaluation: [INJECAGENT.md](INJECAGENT.md)
 
 ## Repository Layout
 
